@@ -1,0 +1,28 @@
+/*公共样式*/
+
+
+/*消除高度塌陷和外边距重叠*/
+.clearfix::before,
+.clearfix::after{
+    content:"";
+    display: table;
+    clear: both;
+}
+a{
+    text-decoration: none;
+    color: #b0b0b0;
+}
+/*字体大小*/
+body{
+    font: 14px/1.5 Helvetica Neue,Helvetica,Arial,Microsoft Yahei,Hiragino Sans GB,Heiti SC,WenQuanYi Micro Hei,sans-serif;
+    color: #333;
+}
+
+/*设置一个类，用来表示中间容器的宽度*/
+.w{
+    /*设置宽度*/
+    width: 1226px;
+    /*设置内容居中效果*/
+    margin: 0px auto;
+    min-width: 1226px;
+}
